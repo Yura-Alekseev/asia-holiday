@@ -3,29 +3,37 @@ body {
     background-size: 100%;
     font-family: Arial, sans-serif;
     font-size: 11px;
+    color: #ffffff;
 }
 
 .wrapper {
     padding: 0.2% 7.3% 3% 7.3%;
 }
 
+.banner{
+    position: relative;
+}
+
 .logo {
-    position: fixed;
-    z-index: 0;
-    padding-top: 6%;
-    width: 260px;
+    position: absolute;
+    z-index: 200;
+    margin-top: 7%;
 }
 
 .palm {
     position: absolute;
-    z-index: 15;
-    margin-left: 10.7%;
-    height: 150px;
+    z-index: 100;
+    margin-left: 12.9%;
 }
 
 .tagline {
-    position: fixed;
-    color: #ffffff;
-    margin: 10% 0 0 6.1%;
+    position: absolute;
+    z-index: 200;
+    margin-top: 11%;
+    margin-left: 7.3%;
+}
 
+.contacts {
+    display: block;
+    float: right;
 }
