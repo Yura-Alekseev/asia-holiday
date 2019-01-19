@@ -1,36 +1,47 @@
 body {
-    background: url("../img/background.jpg")  no-repeat ;
-    background-size: 100%;
     font-family: Arial, sans-serif;
     font-size: 11px;
-    color: #ffffff;
+
+    color: #fff;
+    background: url('../img/background.jpg') no-repeat;
+    background-size: 100%;
 }
 
 .wrapper {
-    padding: 0.2% 7.3% 3% 7.3%;
+    padding: .2% 7.3% 3% 7.3%; /*какой смысл если у тебя нет фактической высоты блока? как он поймет от скольки ему этот % считать?*/
 }
 
-.banner{
+header {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+}
+
+.banner {
     position: relative;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 200px;
+    height: 250px;
+
+    align-items: center;
+    justify-content: center;
 }
 
 .logo {
-    position: absolute;
     z-index: 200;
-    margin-top: 7%;
 }
 
 .palm {
     position: absolute;
     z-index: 100;
-    margin-left: 12.9%;
-}
+    top: 10px;
+    left: 120px;
 
-.tagline {
-    position: absolute;
-    z-index: 200;
-    margin-top: 11%;
-    margin-left: 7.3%;
+    width: 150px;
 }
 
 .contacts {
