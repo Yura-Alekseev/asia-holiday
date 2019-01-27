@@ -64,7 +64,7 @@ header {
     top: 91px;
 }
 
-.contacts span:nth-child(1) {
+.contacts span:first-child {
     margin-bottom: 6px;
 }
 
