@@ -35,19 +35,20 @@ header {
     position: relative;
     z-index: 200;
     top: 26px;
-
+    left: 15px;
 }
 
 .palm {
     position: absolute;
     z-index: 100;
 
-    left: 148px;
-    width: 48%;
+    left: 138px;
+    width: 56%;
 }
 
 .tagline {
     position: relative;
+    justify-content: center;
     top: 31px;
     left: 17px;
 }
@@ -60,7 +61,7 @@ header {
     height: 100px;
 
     position: relative;
-    top: 89px;
+    top: 100px;
 }
 
 .contacts li:nth-child(1) {
