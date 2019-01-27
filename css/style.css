@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Tahoma, sans-serif;
     font-size: 11px;
 
     color: #fff;
@@ -8,7 +8,7 @@ body {
 }
 
 .wrapper {
-    padding: 0 7.3% 3% 7.3%; /*какой смысл если у тебя нет фактической высоты блока? как он поймет от скольки ему этот % считать?*/
+    padding: 55px 7.3% 30px 7.3%; /*какой смысл если у тебя нет фактической высоты блока? как он поймет от скольки ему этот % считать?*/
 }
 
 header {
@@ -35,7 +35,7 @@ header {
     position: relative;
     z-index: 200;
     top: 26px;
-    
+
 }
 
 .palm {
@@ -78,17 +78,16 @@ header {
 }
 
 .content figure {
-    margin-right: 2%;
-    margin-bottom: 5%;
+    justify-content: space-between;
 }
 
 .border {
     background-color: #9b9b9b;
     border: 5px double #757575;
     border-radius: 3px;
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.79);
-    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.79);
-    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.79);
+    -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.79);
+    -moz-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.79);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.79);
 }
 
 figcaption {
@@ -101,5 +100,4 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
-
 }
