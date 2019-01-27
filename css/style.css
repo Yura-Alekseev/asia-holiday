@@ -75,8 +75,8 @@ header {
 
 .content figure {
     justify-content: space-between;
-    margin-bottom: 40px;
-    margin-right: 20px;
+    margin-bottom: 60px;
+    margin-right: 30px;
     width: 140%;
 }
 
@@ -96,7 +96,7 @@ figure img{
 
 .border {
     background-color: #9b9b9b;
-    border: 5px double #757575;
+    border: 3px double #757575;
     border-radius: 3px;
     -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.79);
     -moz-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.79);
