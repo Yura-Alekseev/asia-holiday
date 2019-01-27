@@ -76,11 +76,12 @@ header {
 .content figure {
     justify-content: space-between;
     margin-bottom: 40px;
-
+    margin-right: 20px;
+    width: 140%;
 }
 
 figure img{
-    
+    width: 100%;
 }
 
 .first-line {
